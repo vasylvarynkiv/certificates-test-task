@@ -2,7 +2,7 @@
     @csrf
     <div class="mb-3 row">
         <div class="col">
-            <label for="certificate_number" class="form-label">Сertificate number:</label>
+            <label for="certificate_number" class="form-label">Certificate number:</label>
             <input type="text" class="form-control @error('certificate_number') is-invalid @enderror"
                    id="certificate_number" name="certificate_number" value="{{ old('certificate_number') }}" required
                    placeholder="1230929DX...">
